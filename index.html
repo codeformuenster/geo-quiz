@@ -3,29 +3,94 @@
   <meta charset=utf-8 />
   <title>Geo Quiz</title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-
-  <!-- Load Leaflet from CDN-->
+  
+  <!-- jQuery 3.1 minified -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  
+  <!-- Font Awesome-->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <!-- Load Leaflet from CDN -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/leaflet/1.0.0-rc.3/leaflet.css" />
   <script src="https://cdn.jsdelivr.net/leaflet/1.0.0-rc.3/leaflet-src.js"></script>
 
   <!-- Load Esri Leaflet from CDN -->
   <script src="https://cdn.jsdelivr.net/leaflet.esri/2.0.2/esri-leaflet.js"></script>
+  
+  <!-- Load leaflet-sidebar JS & CSS -->
+  <link rel="stylesheet" href="assets/css/leaflet-sidebar.min.css" />
+  <script src="assets/js/leaflet-sidebar.min.js"></script>
 
   <style>
-    body { margin:0; padding:0; }
+    body { margin:0; padding:0; font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif; }
     #map { position: absolute; top:0; bottom:0; right:0; left:0; }
+    #text { font-style: italic; color: #AAA;}
+    
   </style>
 </head>
 <body>
 
-<div id="map"></div>
+
+ <div id="sidebar" class="sidebar collapsed">
+        <!-- Nav tabs -->
+        <div class="sidebar-tabs">
+            <ul role="tablist">
+                <li><a href="#home" role="tab"><i class="fa fa-bars"></i></a></li>
+                <li><a href="#profile" role="tab"><i class="fa fa-user"></i></a></li>
+                <li class="disabled"><a href="#messages" role="tab"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+
+            <ul role="tablist">
+                <li><a href="#settings" role="tab"><i class="fa fa-gear"></i></a></li>
+            </ul>
+        </div>
+
+        <!-- Tab panes -->
+        <div class="sidebar-content">
+            <div class="sidebar-pane" id="home">
+                <h1 class="sidebar-header">
+                    Geo-Quiz :-)
+                    <span class="sidebar-close"><i class="fa fa-caret-left"></i></span>
+                </h1>
+
+                <p>Guess your City!</p>
+
+                <p class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>          
+            </div>
+
+            <div class="sidebar-pane" id="profile">
+                <h1 class="sidebar-header">Profile<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+            </div>
+
+            <div class="sidebar-pane" id="messages">
+                <h1 class="sidebar-header">Messages<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+            </div>
+
+            <div class="sidebar-pane" id="settings">
+                <h1 class="sidebar-header">Settings<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+            </div>
+        </div>
+    </div>
+    
+    
+<div id="map" class="sidebar-map"></div>
+
 
 <script>
-  var map = L.map("map").setView([50.75, 9], 7);
-  L.esri.basemapLayer("Imagery").addTo(map);
+	
+  $(document).ready(function(){
+	  var map = L.map("map").setView([50.75, 9], 7);
+	  L.esri.basemapLayer("Imagery").addTo(map);
+	
+	  var latlngs = [ [50,9], [51,10]];
+	  var polyline = L.polyline(latlngs, {color: 'red'}).addTo(map);
+	 
+	  
+	  var sidebar = L.control.sidebar('sidebar').addTo(map);	  
+  })
+  
 
-  var latlngs = [ [50,9], [51,10]];
-  var polyline = L.polyline(latlngs, {color: 'red'}).addTo(map);
+
 </script>
 
 </body>
