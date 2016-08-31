@@ -85,6 +85,8 @@
 <script>
 
 	var clickedCoords, insel,mymap, maxCount,currentItem,new_event_marker,resultMarker,resultLine;
+  var inselHistory = [];
+
 		var distances = 0;
 		var questionCount = 0;
 
@@ -142,10 +144,20 @@
 			return;
 		}
 		questionCount++;
-		var random = Math.floor(Math.random() * maxCount);
-		currentItem = insel[random];
+
+    currentItem = getInsel();
+    while (inselHistory[currentItem]) {
+      currentItem = getInsel();
+    }
+    inselHistory[currentItem]++;
+
 		$("#question").text(questionCount + ". Wo liegt " + currentItem.properties.NAME + "?");
 	}
+
+  function getInsel() {
+    var random = Math.floor(Math.random() * maxCount);
+		return insel[random];
+  }
 
 	function checkDistance(evt){
 		var coordinates = currentItem.geometry.coordinates;
