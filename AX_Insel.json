@@ -1,0 +1,212 @@
+{"name":"AX_Insel","type":"FeatureCollection"
+,"features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[10.795270000002,52.516109999474]},"properties":{"NAME":"Werder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.2438799997919,52.5649899979087]},"properties":{"NAME":"Baumwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.5266600000007,54.1636099994827]},"properties":{"NAME":"Langenwarder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[14.2583299974505,53.7061099906972]},"properties":{"NAME":"Riether Werder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.3491600000003,54.1336099994828]},"properties":{"NAME":"Tempel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[6.98194399999689,53.6761099994766]},"properties":{"NAME":"Juist"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.8963800000554,48.8433299986881]},"properties":{"NAME":"Wörth"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.191109999828,52.4674899980585]},"properties":{"NAME":"Lindwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.69722200000002,54.675829999486]},"properties":{"NAME":"Oland"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[14.5594399961061,52.3369399857754]},"properties":{"NAME":"Ziegenwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.65526999999,52.4344399990027]},"properties":{"NAME":"Köhninge"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.89638799999994,53.7863799994811]},"properties":{"NAME":"Wangerooge"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[14.1788799981027,52.3386099917259]},"properties":{"NAME":"Fischwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.2174999998089,52.5486099979853]},"properties":{"NAME":"Eiswerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.2888799997272,53.2016599977704]},"properties":{"NAME":"Langenwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[9.36055499999996,52.4627699994753]},"properties":{"NAME":"Badeinsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.528880000008,53.6058299994556]},"properties":{"NAME":"Flakenwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.6027769999994,50.3955499994695]},"properties":{"NAME":"Niederwerth"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.8036099989332,54.0813799952325]},"properties":{"NAME":"Rohrplan"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.2083300000041,54.4155499994763]},"properties":{"NAME":"Kohlhof Insel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.9122200000023,53.9083299994792]},"properties":{"NAME":"Buchhorst"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.04444399999612,50.7774999994673]},"properties":{"NAME":"Herseler Werth"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.1650000000069,53.7599899993319]},"properties":{"NAME":"Schöninsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.9469400000026,53.6377699994774]},"properties":{"NAME":"Kleiner Werder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.76722200000001,54.6369399994858]},"properties":{"NAME":"Habel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[9.46222199999996,53.7091599994808]},"properties":{"NAME":"Schwarztonnensand"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.6594399999893,52.4405499989985]},"properties":{"NAME":"Großes Ohr"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.4183300000005,54.171379999483]},"properties":{"NAME":"Großer Warder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.1194399997858,54.4286099982463]},"properties":{"NAME":"Heuwiese"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.23749999999841,53.7136099994794]},"properties":{"NAME":"Norderney"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.4244400000005,54.1149899994826]},"properties":{"NAME":"Bischofswarder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.4675000000068,53.9658299994619]},"properties":{"NAME":"Ahrendsberg"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.3194400000019,53.6577699992619]},"properties":{"NAME":"Liepse"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.34972200000009,49.9091599994689]},"properties":{"NAME":"Kisselwörth"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.4258300000065,53.9411099994643]},"properties":{"NAME":"Walfisch"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.46277699999892,50.4180499994692]},"properties":{"NAME":"Weißenthürmer Werth"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.4288800000005,54.1527699994828]},"properties":{"NAME":"Olsborg"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.1616599997561,54.5077699981409]},"properties":{"NAME":"Öhe"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.91249999999994,54.1849899994831]},"properties":{"NAME":"Helgoland-Düne"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.4633300000071,53.7499899994611]},"properties":{"NAME":"Lieps"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[9.12194399999999,47.6719399994683]},"properties":{"NAME":"Triboldingerbohl"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.25861100000008,50.0219399994691]},"properties":{"NAME":"Petersaue"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.4688800000073,53.61943999946]},"properties":{"NAME":"Kaninchenwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.9230500000025,53.6183299994776]},"properties":{"NAME":"Rethwiese"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.3088800000123,47.9413799994565]},"properties":{"NAME":"Rosen-Insel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[9.59027699999995,53.5922199994802]},"properties":{"NAME":"Lühesand"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.4358300000065,53.993329999464]},"properties":{"NAME":"Poel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.5263799999758,54.3661099991286]},"properties":{"NAME":"Borner Bülten"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.64888800000003,54.5216599994851]},"properties":{"NAME":"Pellworm"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.7991599989404,54.1055499952641]},"properties":{"NAME":"Kleiner Wotig"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.3069400000025,53.6508299992684]},"properties":{"NAME":"Schwerin"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.40499999999863,50.2230499994688]},"properties":{"NAME":"Das untere Werth"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[9.72222199999996,53.5569399994801]},"properties":{"NAME":"Neßsand"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[9.19527699999997,47.7049999994682]},"properties":{"NAME":"Mainau"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[9.68333299999991,47.5461099994684]},"properties":{"NAME":"Lindau"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[6.69916599999015,49.7958299994574]},"properties":{"NAME":"Hannenwehr"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[9.56277699999996,54.508049999485]},"properties":{"NAME":"Mövenberg"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.81888800000001,54.6002699994855]},"properties":{"NAME":"Hamburger Hallig"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.2822200000041,53.6024899992806]},"properties":{"NAME":"Süfs"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[9.40499999999997,53.7763799994811]},"properties":{"NAME":"Rhinplate"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.48277700000005,53.3911099994792]},"properties":{"NAME":"Strohauser Plate"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.9180499986219,54.2463799943478]},"properties":{"NAME":"Greifswalder Oie"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.1725000000093,47.6922199994611]},"properties":{"NAME":"Buchau"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.1716599997509,54.4702699981147]},"properties":{"NAME":"Ummanz"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.3941600000004,54.1349899994827]},"properties":{"NAME":"Konau"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.29027699999797,50.1697199994682]},"properties":{"NAME":"Pommerer Werth"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.4044400000004,54.1366599994828]},"properties":{"NAME":"Burmeister Warder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.0241599998366,54.4461099984584]},"properties":{"NAME":"Bock"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.3525000000003,54.1397199994828]},"properties":{"NAME":"Ascheberger Warder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.1950000000046,53.5780499994722]},"properties":{"NAME":"Großer Werder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.265269999777,52.5849899978442]},"properties":{"NAME":"Hasselwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.88388799999991,54.1822199994831]},"properties":{"NAME":"Helgoland"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.7711099989911,54.2049899954581]},"properties":{"NAME":"Ruden"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[9.51638799999995,53.6902699994807]},"properties":{"NAME":"Pagensand"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.86055499999988,49.9999999994689]},"properties":{"NAME":"Klemensgrund"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.73222199999977,53.770269999481]},"properties":{"NAME":"Spiekeroog"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.49833300000003,54.7177699994862]},"properties":{"NAME":"Föhr"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.72583300000002,54.4655499994848]},"properties":{"NAME":"Südfall (Hallig)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.50277700000005,53.3097199994788]},"properties":{"NAME":"Harriersand"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.8677699999335,53.1238799987331]},"properties":{"NAME":"Remusinsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.991666,49.982219999469]},"properties":{"NAME":"Fulder-Aue"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.1283299998616,52.4347199982201]},"properties":{"NAME":"Pfaueninsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.3622199996088,54.1833299975228]},"properties":{"NAME":"Insel Riems"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.77499999999976,50.074159999469]},"properties":{"NAME":"Kauber Werth"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.5347199993959,54.322769996807]},"properties":{"NAME":"Vilm"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.2449999997909,52.5702699979054]},"properties":{"NAME":"Scharfenberg"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.0683300000143,52.8263799993608]},"properties":{"NAME":"Spülinsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.1391600000036,54.4463799994782]},"properties":{"NAME":"Fehmarn"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.3947199995607,54.4347199974032]},"properties":{"NAME":"Rügen"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[6.72083299999459,53.5922199994696]},"properties":{"NAME":"Borkum"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.43472200000004,53.953049999482]},"properties":{"NAME":"Scharhörn"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.9855499984631,53.9688799937541]},"properties":{"NAME":"Usedom"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.3977700000687,47.8605499992091]},"properties":{"NAME":"Herreninsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.58722199999935,50.4055499994694]},"properties":{"NAME":"Graswerth"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.2855500000039,53.611379999279]},"properties":{"NAME":"Großwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.3002699996475,54.5391599977368]},"properties":{"NAME":"Beuchel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.5294399999756,54.3541599991261]},"properties":{"NAME":"Neuendorfer Bülten"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.15082999985,52.4502699981642]},"properties":{"NAME":"Imchen"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[14.0324999983154,53.9452699933063]},"properties":{"NAME":"Böhmke"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.2894400000003,54.2177699994833]},"properties":{"NAME":"Probstenwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.9311100000026,53.5908299994773]},"properties":{"NAME":"Kampenwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.41749999999905,53.228609999478]},"properties":{"NAME":"Bingumer Sand"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.54583300000003,54.5686099994854]},"properties":{"NAME":"Hooge (Hallig)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.6816599999863,52.4449899989747]},"properties":{"NAME":"Lange Reihe"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[6.85888799999587,53.5944399994737]},"properties":{"NAME":"Lütje Hörn"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.0875000000032,54.4374899994794]},"properties":{"NAME":"Warder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.1694399998405,52.4474899981163]},"properties":{"NAME":"Schwanenwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.51166600000003,54.5283299994851]},"properties":{"NAME":"Norderoog (Hallig)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.51222199999911,50.4166599994693]},"properties":{"NAME":"Urmitzer Werth"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.3661100000145,47.5913799994541]},"properties":{"NAME":"Sassau"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.35722200000004,54.9111099994874]},"properties":{"NAME":"Sylt"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.528330000008,53.6111099994557]},"properties":{"NAME":"Fischerwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.597219999496,52.1355499964996]},"properties":{"NAME":"Egsdorfer Horst"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[6.88583299999612,53.6397199994746]},"properties":{"NAME":"Memmert"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.4166600000698,47.8686099991973]},"properties":{"NAME":"Krautinsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.2372199997963,52.5619399979284]},"properties":{"NAME":"Maienwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.6611099999538,54.406939999004]},"properties":{"NAME":"Bülten"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.4372200000005,54.1419399994828]},"properties":{"NAME":"Ruhlebener Warder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.2058299997272,54.4655499980219]},"properties":{"NAME":"Mährens"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.7030499999449,54.4216599989581]},"properties":{"NAME":"Große Kirr"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.52972199999942,53.7458299994807]},"properties":{"NAME":"Langeoog"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.35277699999883,53.3049899994781]},"properties":{"NAME":"Hatzumer Sand"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.39999999999905,53.7269399994803]},"properties":{"NAME":"Baltrum"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.010277,53.7633299994811]},"properties":{"NAME":"Minsener Oog"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.20221999973,54.461109998032]},"properties":{"NAME":"Liebes"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.49833300000004,53.9208299994818]},"properties":{"NAME":"Neuwerk"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.1438800000001,54.3666599994842]},"properties":{"NAME":"Schleuseninsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.6397199999576,54.4197199990261]},"properties":{"NAME":"Schmidtbülten"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.72444400000003,54.6347199994857]},"properties":{"NAME":"Gröde-Appelland"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.1208299997896,54.3077699982424]},"properties":{"NAME":"Dänholm"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.68777700000003,54.0580499994825]},"properties":{"NAME":"Trischen"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.4022200000004,54.1311099994827]},"properties":{"NAME":"Triebs"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.81166600000001,54.5497199994853]},"properties":{"NAME":"Nordstrandischmoor (Hallig)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.5980499999744,53.7905499990636]},"properties":{"NAME":"Burgwallinsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.31250000000008,49.985549999469]},"properties":{"NAME":"Bleiaue"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.4158300000005,54.1691599994829]},"properties":{"NAME":"Ziegen Warder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.8988799999184,53.3486099986843]},"properties":{"NAME":"Schulzenwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.4077700000004,54.1294399994827]},"properties":{"NAME":"Rotten Warder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[9.54749999999994,53.6419399994804]},"properties":{"NAME":"Bishorster Sand"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.4258300000703,47.8736099991914]},"properties":{"NAME":"Fraueninsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.1502700000088,47.6836099994617]},"properties":{"NAME":"Große Birke"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.6633299999878,52.4944399989945]},"properties":{"NAME":"Buhnenwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.93861099999996,49.974719999469]},"properties":{"NAME":"Rüdesheimer Aue"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.2133299997247,54.3994399980006]},"properties":{"NAME":"Liebitz"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.081379999806,54.4755499983354]},"properties":{"NAME":"Gänsewerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.34166600000004,54.6524899994859]},"properties":{"NAME":"Amrum"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.81527699999982,50.033609999469]},"properties":{"NAME":"Lorcher Werth"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.4086100000004,54.1324899994827]},"properties":{"NAME":"Langes Warder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.103049999791,54.5491599982858]},"properties":{"NAME":"Hiddensee"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.20861099999751,50.6405499994685]},"properties":{"NAME":"Nennenwerth"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.5830499999677,54.3772199990802]},"properties":{"NAME":"Jägerbülten"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.14888800000003,53.7238799994809]},"properties":{"NAME":"Mellum"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.2516599997868,52.5672199978855]},"properties":{"NAME":"Reiswerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.2336099997984,52.5641599979389]},"properties":{"NAME":"Valentinswerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.9758299998589,54.4380499985532]},"properties":{"NAME":"Kleine Werder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.12611100000006,50.018879999469]},"properties":{"NAME":"Königsklinger Aue"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.95527699999996,49.974159999469]},"properties":{"NAME":"Ilmen-Aue"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.3861100000004,54.1377699994828]},"properties":{"NAME":"Alswarder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.66722199999955,50.1711099994691]},"properties":{"NAME":"Ehrenthaler Werth"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.59250000000003,54.6363799994857]},"properties":{"NAME":"Nordmarsch-Langeneß"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.669439999952,54.4183299989952]},"properties":{"NAME":"Brunstwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.55277700000003,54.4636099994847]},"properties":{"NAME":"Süderoog (Hallig)"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.8411099999573,52.4697199987718]},"properties":{"NAME":"Langer Werder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.35555499999842,50.4674999994691]},"properties":{"NAME":"Hammersteiner Werth"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.625550000001,54.1394399994823]},"properties":{"NAME":"Fasaneninsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[6.88222199999323,49.4683299994625]},"properties":{"NAME":"Horst"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.6639049449492,52.4946868142309]},"properties":{"NAME":"Möweninsel Buhnenwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.7917196514623,53.1888032416107]},"properties":{"NAME":"Großer Horst"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.1035504853269,54.1680120330349]},"properties":{"NAME":"Kleiner Pagenwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.4484381377635,53.3069738890904]},"properties":{"NAME":"Jägerwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.1210696628101,54.5458507509342]},"properties":{"NAME":"Fährinsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.34955178440273,49.9200099866526]},"properties":{"NAME":"Sändchensinsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.8944290216644,52.8330059041807]},"properties":{"NAME":"Insel im Bützsee"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.5775755996413,52.4495716061527]},"properties":{"NAME":"Bauminsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.4186681252052,53.6243396994354]},"properties":{"NAME":"Schlossinsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.4122752335239,54.1701479457091]},"properties":{"NAME":"Koos"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.8048489243919,54.1015986960976]},"properties":{"NAME":"Großer Rohrplan"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.4535030734224,53.307243349065]},"properties":{"NAME":"Steinwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.08259935083412,50.0123996988685]},"properties":{"NAME":"Mariannenaue"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.4583457529206,52.3769070010542]},"properties":{"NAME":"Kiehnwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.681284444606,52.4321109158568]},"properties":{"NAME":"Entenwall"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[10.4182816818467,54.1712984986033]},"properties":{"NAME":"Groter Warder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.7828808854131,54.0551102353721]},"properties":{"NAME":"Schlossinsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.22652675924403,50.0332052464235]},"properties":{"NAME":"Rettbergsaue"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[6.44834439765389,50.5965028652334]},"properties":{"NAME":"Krummenauel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.7287809918147,54.4088440413804]},"properties":{"NAME":"Barther Oie"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[7.77227102598934,50.0657211157111]},"properties":{"NAME":"Bacharacher Werth"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.4566070218669,53.3065493018709]},"properties":{"NAME":"Bollerwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.2897300723158,53.2023783385545]},"properties":{"NAME":"Langes Werder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.49251205277518,53.2101384665656]},"properties":{"NAME":"Rönnebecker Sand"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.34324807662893,49.9577326398272]},"properties":{"NAME":"Rheinauen"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.1830892511312,48.7388177850648]},"properties":{"NAME":"Leopoldineninsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.4821101964246,53.6157060568773]},"properties":{"NAME":"Ziegelwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.2910088490133,53.6110760139066]},"properties":{"NAME":"Rauwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.106610621427,54.1652919836061]},"properties":{"NAME":"Großer Pagenwerder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.3042192356831,47.7901398187771]},"properties":{"NAME":"Marieninsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.1708618975724,48.0584165438767]},"properties":{"NAME":"Mausinsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[11.5136244384216,54.0533525499568]},"properties":{"NAME":"Kieler Ort"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.5379712353174,54.4837583886475]},"properties":{"NAME":"Bernsteininsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.3548423750711,54.1801368637774]},"properties":{"NAME":"Riffbrink"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.3331884273111,54.1695399384291]},"properties":{"NAME":"Brinkenberg"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.9419355417091,52.3800026078395]},"properties":{"NAME":"Insel Werder"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.7751255708982,54.1142565110484]},"properties":{"NAME":"Großer Wotig"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[12.476116677106,52.3758188463377]},"properties":{"NAME":"Kanincheninsel"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.3614877703956,54.251991756683]},"properties":{"NAME":"Tollow"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.3897552000078,54.2647813775457]},"properties":{"NAME":"Ruschbrink"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[13.2197832565585,54.4661741247083]},"properties":{"NAME":"Urkevitz"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[9.68441742766199,53.5604036424309]},"properties":{"NAME":"Hanskalbsand"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[8.48090705380727,53.4007508810077]},"properties":{"NAME":"Reiherplate"}}
+]}

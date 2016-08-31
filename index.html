@@ -3,20 +3,20 @@
   <meta charset=utf-8 />
   <title>Geo Quiz</title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  
+
   <!-- jQuery 3.1 minified -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  
+
   <!-- Font Awesome-->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  
+
   <!-- Load Leaflet from CDN -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/leaflet/1.0.0-rc.3/leaflet.css" />
   <script src="https://cdn.jsdelivr.net/leaflet/1.0.0-rc.3/leaflet-src.js"></script>
 
   <!-- Load Esri Leaflet from CDN -->
   <script src="https://cdn.jsdelivr.net/leaflet.esri/2.0.2/esri-leaflet.js"></script>
-  
+
   <!-- Load leaflet-sidebar JS & CSS -->
   <link rel="stylesheet" href="assets/css/leaflet-sidebar.min.css" />
   <script src="assets/js/leaflet-sidebar.min.js"></script>
@@ -25,7 +25,7 @@
     body { margin:0; padding:0; font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif; }
     #map { position: absolute; top:0; bottom:0; right:0; left:0; }
     #text { font-style: italic; color: #AAA;}
-    
+
   </style>
 </head>
 <body>
@@ -55,7 +55,13 @@
 
                 <p>Guess your City!</p>
 
-                <p class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>          
+                <div id="question" style="width: 100%; height: 60px"></div>
+
+				<button type="button" id="useBtn" onclick="checkDistance()" disabled>Übernehmen</button>
+				<button type="button" id="nextBtn" onclick="getNextQuestion()" disabled>Nächste Frage</button>
+					<div>Verfehlte Kilometer: </div><div id="missedSingleKm">0</div>
+
+				<div>Gesamte Verfehlte Kilometer: </div><div id="missedKm">0</div>
             </div>
 
             <div class="sidebar-pane" id="profile">
@@ -71,24 +77,97 @@
             </div>
         </div>
     </div>
-    
-    
+
+
 <div id="map" class="sidebar-map"></div>
 
 
 <script>
-	
+
+	var clickedCoords, insel,mymap, maxCount,currentItem,new_event_marker,resultMarker,resultLine;
+		var distances = 0;
+		var questionCount = 0;
+
   $(document).ready(function(){
-	  var map = L.map("map").setView([50.75, 9], 7);
-	  L.esri.basemapLayer("Imagery").addTo(map);
-	
-	  var latlngs = [ [50,9], [51,10]];
-	  var polyline = L.polyline(latlngs, {color: 'red'}).addTo(map);
-	 
-	  
-	  var sidebar = L.control.sidebar('sidebar').addTo(map);	  
+
+
+		$.getJSON("AX_Insel.json", function(json) {
+			insel = json.features; // this will show the info it in firebug console
+			maxCount = insel.length;
+			getNextQuestion();
+		});
+
+		mymap = L.map("map").setView([50.75, 9], 7);
+		L.esri.basemapLayer("Imagery").addTo(mymap);
+
+		var popup = L.popup();
+
+		mymap.on('click', onMapClick);
+
+
+
+	  var sidebar = L.control.sidebar('sidebar').addTo(map);
   })
-  
+
+  function onMapClick(e) {
+		clickedCoords = e.latlng;
+		if(!new_event_marker)
+		 {
+		  new_event_marker = new L.marker(clickedCoords,{ draggable: true});
+		  new_event_marker.addTo(mymap);
+		 }
+		 else
+		 {
+		  new_event_marker.setLatLng(clickedCoords);
+		 }
+		  $('#useBtn').prop('disabled', false);
+	}
+
+	function getNextQuestion(){
+		if(new_event_marker){
+			mymap.removeLayer(new_event_marker);
+			new_event_marker = null;
+		}
+		if(resultMarker){
+			mymap.removeLayer(resultMarker);
+		}
+		if(resultLine){
+			mymap.removeLayer(resultLine);
+		}
+		$("#missedSingleKm").html("0");
+		$('#nextBtn').prop('disabled', true);
+		$('#useBtn').prop('disabled', true);
+		if(distances > 1000){
+			alert("Das spiel ist vorbei. Du hast " + questionCount + " Fragen beantwortet");
+			return;
+		}
+		questionCount++;
+		var random = Math.floor(Math.random() * maxCount);
+		currentItem = insel[random];
+		$("#question").text(questionCount + ". Wo liegt " + currentItem.properties.NAME + "?");
+	}
+
+	function checkDistance(evt){
+		var coordinates = currentItem.geometry.coordinates;
+		var curLatLng = L.latLng(coordinates[1],coordinates[0]);
+		var dis = clickedCoords.distanceTo(curLatLng);
+		dis = Math.round(dis / 1000);
+		distances = distances + dis;
+		$("#missedSingleKm").html(dis);
+		$("#missedKm").html(distances);
+		showResult(curLatLng);
+		$('#useBtn').prop('disabled', true);
+	}
+
+	function showResult(curLatLng){
+		var latLngs = [];
+		latLngs.push(curLatLng);
+		latLngs.push(clickedCoords);
+		resultMarker = new L.marker(curLatLng).addTo(mymap);
+		resultLine = L.polyline(latLngs, {color:"red"}).addTo(mymap);
+		 $('#nextBtn').prop('disabled', false);
+	}
+
 
 
 </script>
