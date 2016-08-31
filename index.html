@@ -53,6 +53,12 @@
                     <span class="sidebar-close"><i class="fa fa-caret-left"></i></span>
                 </h1>
 
+                <select name="datensatz" id="datensatz">
+                  <option value=""> -- Bitte auswählen -- </option>
+                  <option> Gemeinde </option>
+                  <option> Insel </option>
+                </select>
+
                 <p>Guess your City!</p>
 
                 <div id="question" style="width: 100%; height: 60px"></div>
@@ -92,12 +98,10 @@
 
   $(document).ready(function(){
 
-
-		$.getJSON("AX_Insel.json", function(json) {
-			insel = json.features; // this will show the info it in firebug console
-			maxCount = insel.length;
-			getNextQuestion();
-		});
+    $('#datensatz').change(function() {
+      var datensatz = $(this).val();
+      startGame(datensatz);
+    })
 
 		mymap = L.map("map").setView([50.75, 9], 7);
 		L.esri.basemapLayer("Imagery").addTo(mymap);
@@ -106,10 +110,17 @@
 
 		mymap.on('click', onMapClick);
 
-
-
 	  var sidebar = L.control.sidebar('sidebar').addTo(map);
   })
+
+  function startGame( filename ) {
+    $.getJSON("AX_"+filename+".json", function(json) {
+      insel = json.features; // this will show the info it in firebug console
+      maxCount = insel.length;
+      getNextQuestion();
+    });
+  }
+
 
   function onMapClick(e) {
 		clickedCoords = e.latlng;
